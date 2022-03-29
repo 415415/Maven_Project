@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat
 
 COPY /target/maven-project.war /opt/dockerdata/maven-project.war
 
